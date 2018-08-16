@@ -6,6 +6,14 @@ public class convertvocal2angka {
         
         System.out.println("\nConvert Kalimat Alay Angka (Vokal Ke Angka)\n");
         
+    }
+    public static String tampilInput() {
+        Scanner scanner = new Scanner(System.in);
         
+        System.out.println("Masukkan kalimat: ");
+        String kalimat = scanner.nextLine();
+        System.out.println("Kalimat Asli : " + kalimat);
+        
+        return kalimat;
     }
 }
